@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-05-26T20:58:35.910Z",
+  "totalCases": 20,
+  "results": [
+    {
+      "index": 1,
+      "text": "مرحبا World هذا اختبار 2.0",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "مرحبا World هذا اختبار 2.0"
+    },
+    {
+      "index": 2,
+      "text": "سعر المنتج 25 دولارًا (USD) وهو خيار جيد.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "سعر المنتج 25 دولارًا (USD) وهو خيار جيد."
+    },
+    {
+      "index": 3,
+      "text": "هل تفضل iOS أم Android؟",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "هل تفضل iOS أم Android؟"
+    },
+    {
+      "index": 4,
+      "text": "This is a plain English sentence.",
+      "hasArabic": false,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "This is a plain English sentence."
+    },
+    {
+      "index": 5,
+      "text": "هذا نص عربي بالكامل دون أي لغة أخرى.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "هذا نص عربي بالكامل دون أي لغة أخرى."
+    },
+    {
+      "index": 6,
+      "text": "const message = \"مرحبا World\";",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "const message = \"مرحبا World\";"
+    },
+    {
+      "index": 7,
+      "text": "2025 هو عام الإنجازات العظيمة",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "2025 هو عام الإنجازات العظيمة"
+    },
+    {
+      "index": 8,
+      "text": "أفضل منصات الذكاء الاصطناعي هي DeepSeek و ChatGPT و Claude.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "أفضل منصات الذكاء الاصطناعي هي DeepSeek و ChatGPT و Claude."
+    },
+    {
+      "index": 9,
+      "text": "الخيارات هي: (أ) ممتاز، (ب) جيد، (ج) مقبول.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "الخيارات هي: (أ) ممتاز، (ب) جيد، (ج) مقبول."
+    },
+    {
+      "index": 10,
+      "text": "I love the word سلام because it means peace.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "I love the word سلام because it means peace."
+    },
+    {
+      "index": 11,
+      "text": "مرحبا World هذا اختبار 2.0",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "مرحبا World هذا اختبار 2.0"
+    },
+    {
+      "index": 12,
+      "text": "أرسل التقرير إلى moh@example.com من فضلك.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "أرسل التقرير إلى moh@example.com من فضلك."
+    },
+    {
+      "index": 13,
+      "text": "تفضل بزيارة https://example.com لمزيد من المعلومات.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "تفضل بزيارة https://example.com لمزيد من المعلومات."
+    },
+    {
+      "index": 14,
+      "text": "GPT-4 و Claude-3.5 من أحدث النماذج.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "GPT-4 و Claude-3.5 من أحدث النماذج."
+    },
+    {
+      "index": 15,
+      "text": "أحب الفواكه: تفاح, موز, برتقال, و grapes.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "أحب الفواكه: تفاح, موز, برتقال, و grapes."
+    },
+    {
+      "index": 16,
+      "text": "المعادلة هي: x = 5 + 3 * 2.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "المعادلة هي: x = 5 + 3 * 2."
+    },
+    {
+      "index": 17,
+      "text": "الموعد هو 2025-05-26 الساعة 10:00 AM.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "الموعد هو 2025-05-26 الساعة 10:00 AM."
+    },
+    {
+      "index": 18,
+      "text": "السعر 100$ شامل الضريبة.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "السعر 100$ شامل الضريبة."
+    },
+    {
+      "index": 19,
+      "text": "تابعونا على #تقنية و #AI.",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "تابعونا على #تقنية و #AI."
+    },
+    {
+      "index": 20,
+      "text": "في دراسة نشرتها Nature عام 2023، تبين أن استخدام الذكاء الاص",
+      "hasArabic": true,
+      "isVisible": true,
+      "copySuccess": true,
+      "copied": "في دراسة نشرتها Nature عام 2023، تبين أن استخدام الذكاء الاص"
+    }
+  ]
+}
