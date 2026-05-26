@@ -67,6 +67,11 @@
       if (el.nodeType === 1) {
         fixElement(el);
         el.querySelectorAll?.('textarea, input[type=text], input[type=search], [contenteditable], [role=textbox]').forEach(fixInput);
+        // معالجة Shadow DOM
+        if (el.shadowRoot) {
+          fixElement(el.shadowRoot);
+          el.shadowRoot.querySelectorAll?.('textarea, input[type=text], input[type=search], [contenteditable], [role=textbox]').forEach(fixInput);
+        }
       }
     }
   }
@@ -96,8 +101,14 @@
     }
   });
 
-  if (document.body) {
-    schedule(document.body);
-    observer.observe(document.body, { childList: true, subtree: true, characterData: true });
-  }
+  // تحقق من القائمة السوداء
+  chrome.storage.sync.get({ blacklist: [] }, data => {
+    const blacklist = data.blacklist;
+    if (blacklist.some(site => window.location.href.includes(site))) return;
+
+    if (document.body) {
+      schedule(document.body);
+      observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+    }
+  });
 })();
