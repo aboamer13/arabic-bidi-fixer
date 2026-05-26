@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مجموعة اختبار BiDi الشاملة</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+    .test-case { margin: 20px 0; padding: 15px; border: 1px solid #ccc; border-radius: 8px; background: #f9f9f9; }
+    .test-case h3 { margin-top: 0; }
+    .original, .expected { background: #fff; padding: 10px; border-radius: 4px; margin: 5px 0; }
+    textarea { width: 100%; height: 60px; margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <h1>مجموعة اختبار BiDi الشاملة</h1>
+  <p>هذه الصفحة تحتوي على حالات اختبار متنوعة لمشكلة اتجاه النص. استخدمها لتجربة الإضافات.</p>
+
+  <div class="test-case">
+    <h3>١. جملة مختلطة بسيطة</h3>
+    <div class="original">مرحبا World هذا اختبار 2.0</div>
+  </div>
+
+  <div class="test-case">
+    <h3>٢. جملة بأقواس وأرقام (العرض ≠ النسخ)</h3>
+    <div class="original">سعر المنتج 25 دولارًا (USD) وهو خيار جيد.</div>
+  </div>
+
+  <div class="test-case">
+    <h3>٣. علامات ترقيم في نهاية الجملة العربية</h3>
+    <div class="original">هل تفضل iOS أم Android؟</div>
+  </div>
+
+  <div class="test-case">
+    <h3>٤. نص إنجليزي بحت (يجب ألا يتأثر)</h3>
+    <div class="original">This is a plain English sentence.</div>
+  </div>
+
+  <div class="test-case">
+    <h3>٥. كود برمجي مختلط (يجب ألا يتأثر)</h3>
+    <div class="original"><code>const message = "مرحبا World";</code></div>
+  </div>
+
+  <div class="test-case">
+    <h3>٦. مربع كتابة تفاعلي</h3>
+    <textarea placeholder="اكتب جملة مختلطة هنا...">مرحبا World هذا اختبار 2.0</textarea>
+  </div>
+
+  <p><strong>كيف تستخدم هذه الصفحة:</strong></p>
+  <ol>
+    <li>تأكد من تفعيل الإضافة (يدوية أو تلقائية).</li>
+    <li>قارن مظهر النصوص في هذه الصفحة مع الشكل المتوقع.</li>
+    <li>جرّب الكتابة في مربع النص أعلاه.</li>
+    <li>انسخ أي نص والصقه في محرر نصوص خارجي للتأكد من تطابق النسخ مع العرض.</li>
+  </ol>
+</body>
+</html>

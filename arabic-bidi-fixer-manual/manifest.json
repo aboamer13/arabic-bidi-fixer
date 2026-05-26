@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Arabic BiDi Fixer (Manual)",
+  "version": "1.0",
+  "description": "إصلاح تشوه النص العربي بكبسة زر. آمن تماماً ولا يعمل تلقائياً.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "إصلاح النص العربي الآن"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

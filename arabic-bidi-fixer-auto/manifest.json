@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Arabic BiDi Fixer (Auto)",
+  "version": "1.0",
+  "description": "يُصلح تشوه النص العربي تلقائيًا في جميع الصفحات. آمن ولا يُسبب تجميدًا.",
+  "permissions": [],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
