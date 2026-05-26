@@ -1,0 +1,14 @@
+# نظام التشغيل
+.DS_Store
+Thumbs.db
+
+# مجلدات مؤقتة
+node_modules/
+/tmp/
+
+# ملفات خاصة بـ VS Code
+.vscode/
+
+# ملفات مضغوطة
+*.zip
+*.tar.gz
